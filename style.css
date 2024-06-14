@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    background-color:  hsl(30, 54%, 90%)
+}
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 73.6rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 4rem;
+}
+.inner-container{
+    width: 6.56rem;
+}
+img{
+    width: 65.6rem;
+    height:30rem;
+    border-radius: 2rem;
+}
