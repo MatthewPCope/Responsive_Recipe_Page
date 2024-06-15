@@ -79,8 +79,22 @@ ul, ol{
     align-content: center;
     padding: 0 2rem;
 }
+ol{
+    line-height: 2.4rem;
+    padding: 0 2.4rem
+}
 .section-ingredients{
     padding: 1.6rem 0 3.2rem 0;
+}
+.section-instructions li{
+    margin-bottom: 1rem;
+}
+.section-instructions li:last-child{
+    margin-bottom: 0;
+}
+.section-instructions li::marker{
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 h2{
     color: hsl(14, 45%, 36%);
